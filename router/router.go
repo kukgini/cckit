@@ -3,7 +3,6 @@ package router
 
 import (
 	"fmt"
-	"os"
 
 	"github.com/op/go-logging"
 	"github.com/hyperledger/fabric-chaincode-go/shim"
