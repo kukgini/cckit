@@ -3,6 +3,7 @@ package mapping
 import (
 	"fmt"
 
+	"github.com/op/go-logging"
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/pkg/errors"
 	"github.com/s7techlab/cckit/state"
@@ -212,7 +213,7 @@ func (s *Impl) Delete(entry interface{}) error {
 	return s.state.Delete(mapped)
 }
 
-func (s *Impl) Logger() *shim.ChaincodeLogger {
+func (s *Impl) Logger() *logging.Logger {
 	return s.state.Logger()
 }
 

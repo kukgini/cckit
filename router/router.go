@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/op/go-logging"
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/s7techlab/cckit/response"
@@ -38,7 +39,7 @@ type (
 
 	// Group of chain code functions
 	Group struct {
-		logger *shim.ChaincodeLogger
+		logger *logging.Logger
 		prefix string
 
 		// mapping chaincode method  => handler
@@ -232,20 +233,20 @@ func New(name string) *Group {
 }
 
 // NewContext creates new instance of router.Context
-func NewContext(stub shim.ChaincodeStubInterface, logger *shim.ChaincodeLogger) *context {
+func NewContext(stub shim.ChaincodeStubInterface, logger *logging.Logger) *context {
 	return &context{
 		stub:   stub,
 		logger: logger,
 	}
 }
 
-// NewLogger creates new instance of shim.ChaincodeLogger
-func NewLogger(name string) *shim.ChaincodeLogger {
-	logger := shim.NewLogger(name)
-	loggingLevel, err := shim.LogLevel(os.Getenv(`CORE_CHAINCODE_LOGGING_LEVEL`))
-	if err == nil {
-		logger.SetLevel(loggingLevel)
-	}
+// NewLogger creates new instance of logging.Logger
+func NewLogger(name string) *logging.Logger {
+	logger := logging.MustGetLogger(name)
+	// loggingLevel, err := shim.LogLevel(os.Getenv(`CORE_CHAINCODE_LOGGING_LEVEL`))
+	// if err == nil {
+	// 	logger.SetLevel(loggingLevel)
+	// }
 
 	return logger
 }

@@ -3,14 +3,15 @@ package main
 import (
 	"fmt"
 
+	"github.com/op/go-logging"
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/s7techlab/cckit/examples/insurance/app"
 )
 
-var logger = shim.NewLogger("main")
+var logger = logging.MustGetLogger("main")
 
 func main() {
-	logger.SetLevel(shim.LogInfo)
+	//logger.SetLevel(shim.LogInfo)
 
 	err := shim.Start(new(app.SmartContract))
 	if err != nil {

@@ -5,6 +5,7 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/op/go-logging"
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/ledger/queryresult"
 	"github.com/pkg/errors"
@@ -94,7 +95,7 @@ type State interface {
 	// entry can be Key (string or []string) or type implementing Keyer interface
 	Delete(entry interface{}) (err error)
 
-	Logger() *shim.ChaincodeLogger
+	Logger() *logging.Logger
 
 	UseKeyTransformer(KeyTransformer) State
 	UseStateGetTransformer(FromBytesTransformer) State
@@ -138,14 +139,14 @@ func (k Key) Append(key Key) Key {
 
 type Impl struct {
 	stub                shim.ChaincodeStubInterface
-	logger              *shim.ChaincodeLogger
+	logger              *logging.Logger
 	StateKeyTransformer KeyTransformer
 	StateGetTransformer FromBytesTransformer
 	StatePutTransformer ToBytesTransformer
 }
 
 // NewState creates wrapper on shim.ChaincodeStubInterface for working with state
-func NewState(stub shim.ChaincodeStubInterface, logger *shim.ChaincodeLogger) *Impl {
+func NewState(stub shim.ChaincodeStubInterface, logger *logging.Logger) *Impl {
 	return &Impl{
 		stub:                stub,
 		logger:              logger,
@@ -155,7 +156,7 @@ func NewState(stub shim.ChaincodeStubInterface, logger *shim.ChaincodeLogger) *I
 	}
 }
 
-func (s *Impl) Logger() *shim.ChaincodeLogger {
+func (s *Impl) Logger() *logging.Logger {
 	return s.logger
 }
 

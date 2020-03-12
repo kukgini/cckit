@@ -1,6 +1,7 @@
 package testing
 
 import (
+	"github.com/op/go-logging"
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/s7techlab/cckit/router"
@@ -9,7 +10,7 @@ import (
 type (
 	CCService struct {
 		MockStub *MockStub
-		Logger   *shim.ChaincodeLogger
+		Logger   *logging.Logger
 	}
 
 	TxResult struct {
