@@ -2,7 +2,7 @@ package encryption
 
 import (
 	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/core/chaincode/shim/ext/entities"
+	"github.com/hyperledger/fabric-chaincode-go/shim/ext/entities"
 	"github.com/pkg/errors"
 	"github.com/s7techlab/cckit/convert"
 	"github.com/s7techlab/cckit/router"

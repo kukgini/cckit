@@ -1,6 +1,6 @@
 package app
 
-import "github.com/hyperledger/fabric/core/chaincode/shim"
+import "github.com/hyperledger/fabric-chaincode-go/shim"
 import (
 	"encoding/json"
 

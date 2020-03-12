@@ -3,7 +3,7 @@ package mapping
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
+	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/pkg/errors"
 	"github.com/s7techlab/cckit/state"
 	"github.com/s7techlab/cckit/state/schema"

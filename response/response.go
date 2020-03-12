@@ -6,7 +6,7 @@ import (
 
 	"github.com/s7techlab/cckit/convert"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
+	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/peer"
 )
 
