@@ -9,7 +9,7 @@ import (
 	"github.com/hyperledger/fabric/core/chaincode/lib/cid"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 	"github.com/hyperledger/fabric/msp"
-	protomsp "github.com/hyperledger/fabric/protos/msp"
+	protomsp "github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/pkg/errors"
 )
 

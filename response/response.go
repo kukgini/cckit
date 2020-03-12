@@ -7,7 +7,7 @@ import (
 	"github.com/s7techlab/cckit/convert"
 
 	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/hyperledger/fabric-protos-go/peer"
 )
 
 // Error returns shim.Error

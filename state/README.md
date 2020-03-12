@@ -508,7 +508,7 @@ package mapping_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/hyperledger/fabric-protos-go/peer"
 
 	"github.com/golang/protobuf/ptypes"
 

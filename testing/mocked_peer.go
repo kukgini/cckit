@@ -9,7 +9,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/s7techlab/hlf-sdk-go/api"
 )
 

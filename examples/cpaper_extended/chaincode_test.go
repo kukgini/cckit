@@ -8,7 +8,7 @@ import (
 	"github.com/s7techlab/cckit/examples/cpaper_extended"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/s7techlab/cckit/examples/cpaper_extended/schema"
 	testcc "github.com/s7techlab/cckit/testing"
 	expectcc "github.com/s7techlab/cckit/testing/expect"

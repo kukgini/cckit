@@ -5,7 +5,7 @@ import (
 	"github.com/hyperledger/fabric/msp"
 	"github.com/s7techlab/cckit/identity"
 
-	pmsp "github.com/hyperledger/fabric/protos/msp"
+	pmsp "github.com/hyperledger/fabric-protos-go/msp"
 )
 
 // TransformCreator transforms arbitrary tx creator (pmsp.SerializedIdentity etc)  to mspID string, certPEM []byte,

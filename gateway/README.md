@@ -528,8 +528,8 @@ syntax = "proto3";
 
 package service;
 
-import "github.com/hyperledger/fabric/protos/peer/proposal_response.proto";
-import "github.com/hyperledger/fabric/protos/peer/chaincode_event.proto";
+import "github.com/hyperledger/fabric-protos-go/peer/proposal_response.proto";
+import "github.com/hyperledger/fabric-protos-go/peer/chaincode_event.proto";
 
 message ChaincodeInput  {
     // Chaincode name
