@@ -9,6 +9,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
+	"github.com/hyperledger/fabric-chaincode-go/shimtest"
 	"github.com/hyperledger/fabric/msp"
 	"github.com/hyperledger/fabric-protos-go/ledger/queryresult"
 	"github.com/hyperledger/fabric-protos-go/peer"
@@ -30,7 +31,7 @@ var (
 
 // MockStub replacement of shim.MockStub with creator mocking facilities
 type MockStub struct {
-	shim.MockStub
+	shimtest.MockStub
 	cc                          shim.Chaincode
 	m                           sync.Mutex
 	mockCreator                 []byte
