@@ -87,7 +87,7 @@ func (e Entry) GetIdentityEntry() Entry {
 }
 
 // CreateEntry creates IdentityEntry structure from an identity interface
-func CreateEntry(i Identity) (g *Entry, err error) {
+func CreateEntry(i *CertIdentity) (g *Entry, err error) {
 	return &Entry{
 		MSPId:   i.GetMSPID(),
 		Subject: i.GetSubject(),
