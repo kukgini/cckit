@@ -8,8 +8,8 @@ import (
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/cckit/router"
-	testcc "github.com/s7techlab/cckit/testing"
+	"github.com/kukgini/cckit2/router"
+	testcc "github.com/kukgini/cckit2/testing"
 )
 
 func TestRouter(t *testing.T) {

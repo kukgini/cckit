@@ -8,12 +8,12 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/s7techlab/cckit/examples/cpaper_asservice"
-	cpservice "github.com/s7techlab/cckit/examples/cpaper_asservice/service"
-	"github.com/s7techlab/cckit/gateway/service"
-	"github.com/s7techlab/cckit/gateway/service/mock"
-	"github.com/s7techlab/cckit/identity/testdata"
-	testcc "github.com/s7techlab/cckit/testing"
+	"github.com/kukgini/cckit2/examples/cpaper_asservice"
+	cpservice "github.com/kukgini/cckit2/examples/cpaper_asservice/service"
+	"github.com/kukgini/cckit2/gateway/service"
+	"github.com/kukgini/cckit2/gateway/service/mock"
+	"github.com/kukgini/cckit2/identity/testdata"
+	testcc "github.com/kukgini/cckit2/testing"
 )
 
 func TestService(t *testing.T) {

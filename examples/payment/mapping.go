@@ -1,8 +1,8 @@
 package payment
 
 import (
-	"github.com/s7techlab/cckit/examples/payment/schema"
-	m "github.com/s7techlab/cckit/state/mapping"
+	"github.com/kukgini/cckit2/examples/payment/schema"
+	m "github.com/kukgini/cckit2/state/mapping"
 )
 
 var (

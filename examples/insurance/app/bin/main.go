@@ -5,7 +5,7 @@ import (
 
 	"github.com/op/go-logging"
 	"github.com/hyperledger/fabric-chaincode-go/shim"
-	"github.com/s7techlab/cckit/examples/insurance/app"
+	"github.com/kukgini/cckit2/examples/insurance/app"
 )
 
 var logger = logging.MustGetLogger("main")

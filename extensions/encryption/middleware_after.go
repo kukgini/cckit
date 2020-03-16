@@ -1,7 +1,7 @@
 package encryption
 
 import (
-	"github.com/s7techlab/cckit/router"
+	"github.com/kukgini/cckit2/router"
 )
 
 func EncryptInvokeResponse() router.MiddlewareFunc {

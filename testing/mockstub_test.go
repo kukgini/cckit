@@ -8,11 +8,11 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/cckit/examples/cars"
-	"github.com/s7techlab/cckit/identity/testdata"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
-	"github.com/s7techlab/hlf-sdk-go/api"
+	"github.com/kukgini/cckit2/examples/cars"
+	"github.com/kukgini/cckit2/identity/testdata"
+	testcc "github.com/kukgini/cckit2/testing"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
+	"github.com/kukgini/hlf-sdk-go-2/api"
 )
 
 func TestMockstub(t *testing.T) {

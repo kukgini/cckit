@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/s7techlab/cckit/convert"
+	"github.com/kukgini/cckit2/convert"
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/peer"

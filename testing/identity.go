@@ -1,11 +1,11 @@
 package testing
 
 import (
-	"github.com/s7techlab/cckit/identity"
+	"github.com/kukgini/cckit2/identity"
 )
 
 type (
-	Identities map[string]identity.Identity
+	Identities map[string]*identity.CertIdentity
 
 	ReadFile func(string) ([]byte, error)
 )

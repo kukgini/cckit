@@ -7,7 +7,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/state"
+	"github.com/kukgini/cckit2/state"
 )
 
 type (

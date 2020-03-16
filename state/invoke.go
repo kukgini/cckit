@@ -3,7 +3,7 @@ package state
 import (
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/convert"
+	"github.com/kukgini/cckit2/convert"
 )
 
 var (

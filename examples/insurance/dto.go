@@ -3,7 +3,7 @@ package insurance
 import (
 	"time"
 
-	"github.com/s7techlab/cckit/examples/insurance/app"
+	"github.com/kukgini/cckit2/examples/insurance/app"
 )
 
 // ContractTypesDTO type used in in "Init" func (arg) in main.go and in "listContractTypes" (return) in "invoke_insurance.go"

@@ -9,7 +9,7 @@ import (
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/ledger/queryresult"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/convert"
+	"github.com/kukgini/cckit2/convert"
 )
 
 // HistoryEntry struct containing history information of a single entry

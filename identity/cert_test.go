@@ -1,8 +1,8 @@
 package identity_test
 
 import (
-	"github.com/s7techlab/cckit/identity"
-	"github.com/s7techlab/cckit/identity/testdata"
+	"github.com/kukgini/cckit2/identity"
+	"github.com/kukgini/cckit2/identity/testdata"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -2,8 +2,8 @@
 package cars
 
 import (
-	"github.com/s7techlab/cckit/router"
-	p "github.com/s7techlab/cckit/router/param"
+	"github.com/kukgini/cckit2/router"
+	p "github.com/kukgini/cckit2/router/param"
 )
 
 func NewWithoutAccessControl() *router.Chaincode {

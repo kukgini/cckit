@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/s7techlab/cckit/examples/cpaper_extended"
+	"github.com/kukgini/cckit2/examples/cpaper_extended"
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/cckit/examples/cpaper_extended/schema"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	"github.com/kukgini/cckit2/examples/cpaper_extended/schema"
+	testcc "github.com/kukgini/cckit2/testing"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

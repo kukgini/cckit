@@ -6,7 +6,7 @@ import (
 	"github.com/op/go-logging"
 	"github.com/hyperledger/fabric-chaincode-go/pkg/cid"
 	"github.com/hyperledger/fabric-chaincode-go/shim"
-	"github.com/s7techlab/cckit/state"
+	"github.com/kukgini/cckit2/state"
 )
 
 // Default parameter name

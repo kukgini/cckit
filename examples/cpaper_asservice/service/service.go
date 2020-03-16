@@ -5,10 +5,10 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/examples/cpaper_asservice/schema"
-	"github.com/s7techlab/cckit/router"
-	"github.com/s7techlab/cckit/state"
-	m "github.com/s7techlab/cckit/state/mapping"
+	"github.com/kukgini/cckit2/examples/cpaper_asservice/schema"
+	"github.com/kukgini/cckit2/router"
+	"github.com/kukgini/cckit2/state"
+	m "github.com/kukgini/cckit2/state/mapping"
 )
 
 type CPaperImpl struct {

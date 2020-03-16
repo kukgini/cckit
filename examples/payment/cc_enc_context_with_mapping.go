@@ -1,13 +1,13 @@
 package payment
 
 import (
-	"github.com/s7techlab/cckit/examples/payment/schema"
-	"github.com/s7techlab/cckit/extensions/debug"
-	"github.com/s7techlab/cckit/extensions/encryption"
-	"github.com/s7techlab/cckit/router"
-	p "github.com/s7techlab/cckit/router/param"
-	"github.com/s7techlab/cckit/state"
-	m "github.com/s7techlab/cckit/state/mapping"
+	"github.com/kukgini/cckit2/examples/payment/schema"
+	"github.com/kukgini/cckit2/extensions/debug"
+	"github.com/kukgini/cckit2/extensions/encryption"
+	"github.com/kukgini/cckit2/router"
+	p "github.com/kukgini/cckit2/router/param"
+	"github.com/kukgini/cckit2/state"
+	m "github.com/kukgini/cckit2/state/mapping"
 )
 
 // Chaincode WITH schema mapping

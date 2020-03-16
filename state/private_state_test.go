@@ -7,10 +7,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/s7techlab/cckit/state"
-	"github.com/s7techlab/cckit/state/testdata"
-	"github.com/s7techlab/cckit/state/testdata/schema"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	"github.com/kukgini/cckit2/state"
+	"github.com/kukgini/cckit2/state/testdata"
+	"github.com/kukgini/cckit2/state/testdata/schema"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
 )
 
 func TestPrivateState(t *testing.T) {

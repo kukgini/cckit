@@ -4,13 +4,13 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/examples/cpaper_extended/schema"
-	"github.com/s7techlab/cckit/extensions/debug"
-	"github.com/s7techlab/cckit/extensions/owner"
-	"github.com/s7techlab/cckit/router"
-	"github.com/s7techlab/cckit/router/param"
-	"github.com/s7techlab/cckit/router/param/defparam"
-	m "github.com/s7techlab/cckit/state/mapping"
+	"github.com/kukgini/cckit2/examples/cpaper_extended/schema"
+	"github.com/kukgini/cckit2/extensions/debug"
+	"github.com/kukgini/cckit2/extensions/owner"
+	"github.com/kukgini/cckit2/router"
+	"github.com/kukgini/cckit2/router/param"
+	"github.com/kukgini/cckit2/router/param/defparam"
+	m "github.com/kukgini/cckit2/state/mapping"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 
 	"github.com/hyperledger/fabric/msp"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/cckit/extensions/encryption"
-	"github.com/s7techlab/cckit/gateway/service"
+	"github.com/kukgini/cckit2/extensions/encryption"
+	"github.com/kukgini/cckit2/gateway/service"
 )
 
 type Opt func(*chaincode)

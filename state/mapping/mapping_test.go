@@ -9,14 +9,14 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	identitytestdata "github.com/s7techlab/cckit/identity/testdata"
-	"github.com/s7techlab/cckit/state"
-	"github.com/s7techlab/cckit/state/mapping"
-	"github.com/s7techlab/cckit/state/mapping/testdata"
-	"github.com/s7techlab/cckit/state/mapping/testdata/schema"
-	state_schema "github.com/s7techlab/cckit/state/schema"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	identitytestdata "github.com/kukgini/cckit2/identity/testdata"
+	"github.com/kukgini/cckit2/state"
+	"github.com/kukgini/cckit2/state/mapping"
+	"github.com/kukgini/cckit2/state/mapping/testdata"
+	"github.com/kukgini/cckit2/state/mapping/testdata/schema"
+	state_schema "github.com/kukgini/cckit2/state/schema"
+	testcc "github.com/kukgini/cckit2/testing"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
 )
 
 func TestState(t *testing.T) {

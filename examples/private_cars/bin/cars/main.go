@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
-	"github.com/s7techlab/cckit/examples/cars"
+	"github.com/kukgini/cckit2/examples/cars"
 )
 
 func main() {

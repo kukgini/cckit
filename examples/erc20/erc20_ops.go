@@ -2,8 +2,8 @@ package erc20
 
 import (
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/identity"
-	r "github.com/s7techlab/cckit/router"
+	"github.com/kukgini/cckit2/identity"
+	r "github.com/kukgini/cckit2/router"
 )
 
 const (

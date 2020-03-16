@@ -3,7 +3,7 @@ package insurance
 import (
 	"time"
 
-	"github.com/s7techlab/cckit/examples/insurance/app"
+	"github.com/kukgini/cckit2/examples/insurance/app"
 )
 
 var (

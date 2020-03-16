@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
-	"github.com/s7techlab/cckit/examples/cpaper_asservice"
+	"github.com/kukgini/cckit2/examples/cpaper_asservice"
 )
 
 func main() {

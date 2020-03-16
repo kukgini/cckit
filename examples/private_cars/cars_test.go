@@ -3,11 +3,11 @@ package cars
 import (
 	"testing"
 
-	"github.com/s7techlab/cckit/extensions/owner"
-	"github.com/s7techlab/cckit/identity/testdata"
-	"github.com/s7techlab/cckit/state"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	"github.com/kukgini/cckit2/extensions/owner"
+	"github.com/kukgini/cckit2/identity/testdata"
+	"github.com/kukgini/cckit2/state"
+	testcc "github.com/kukgini/cckit2/testing"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

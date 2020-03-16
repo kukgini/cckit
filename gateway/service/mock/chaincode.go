@@ -9,8 +9,8 @@ import (
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric/msp"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/cckit/gateway/service"
-	"github.com/s7techlab/cckit/testing"
+	"github.com/kukgini/cckit2/gateway/service"
+	"github.com/kukgini/cckit2/testing"
 )
 
 const (

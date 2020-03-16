@@ -1,7 +1,7 @@
 package mapping
 
 import (
-	"github.com/s7techlab/cckit/router"
+	"github.com/kukgini/cckit2/router"
 )
 
 func MapStates(stateMappings StateMappings) router.MiddlewareFunc {

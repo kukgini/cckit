@@ -8,9 +8,9 @@ import (
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/pkg/errors"
 
-	"github.com/hyperledger/fabric/msp"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/hlf-sdk-go/api"
+	"github.com/hyperledger/fabric/msp"
+	"github.com/kukgini/hlf-sdk-go-2/api"
 )
 
 type (

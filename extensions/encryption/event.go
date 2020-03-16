@@ -5,8 +5,8 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/router"
-	"github.com/s7techlab/cckit/state"
+	"github.com/kukgini/cckit2/router"
+	"github.com/kukgini/cckit2/state"
 )
 
 // EventWithTransientKey creates encrypted event wrapper with provided key for symmetric encryption/decryption

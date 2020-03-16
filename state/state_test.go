@@ -7,12 +7,12 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	identitytestdata "github.com/s7techlab/cckit/identity/testdata"
-	"github.com/s7techlab/cckit/state"
-	"github.com/s7techlab/cckit/state/testdata"
-	"github.com/s7techlab/cckit/state/testdata/schema"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	identitytestdata "github.com/kukgini/cckit2/identity/testdata"
+	"github.com/kukgini/cckit2/state"
+	"github.com/kukgini/cckit2/state/testdata"
+	"github.com/kukgini/cckit2/state/testdata/schema"
+	testcc "github.com/kukgini/cckit2/testing"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
 )
 
 func TestState(t *testing.T) {

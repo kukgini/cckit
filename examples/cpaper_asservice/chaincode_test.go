@@ -13,13 +13,13 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/hyperledger/fabric/msp"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/cckit/examples/cpaper_asservice"
-	"github.com/s7techlab/cckit/examples/cpaper_asservice/schema"
-	s "github.com/s7techlab/cckit/examples/cpaper_asservice/service"
-	"github.com/s7techlab/cckit/extensions/encryption"
-	"github.com/s7techlab/cckit/router"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	"github.com/kukgini/cckit2/examples/cpaper_asservice"
+	"github.com/kukgini/cckit2/examples/cpaper_asservice/schema"
+	s "github.com/kukgini/cckit2/examples/cpaper_asservice/service"
+	"github.com/kukgini/cckit2/extensions/encryption"
+	"github.com/kukgini/cckit2/router"
+	testcc "github.com/kukgini/cckit2/testing"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
 )
 
 const (

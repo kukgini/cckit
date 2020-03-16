@@ -4,7 +4,7 @@ import (
 	"github.com/op/go-logging"
 	//"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/cckit/router"
+	"github.com/kukgini/cckit2/router"
 )
 
 type (

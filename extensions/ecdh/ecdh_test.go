@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/s7techlab/cckit/extensions/ecdh"
-	"github.com/s7techlab/cckit/identity/testdata"
+	"github.com/kukgini/cckit2/extensions/ecdh"
+	"github.com/kukgini/cckit2/identity/testdata"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

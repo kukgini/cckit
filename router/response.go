@@ -3,7 +3,7 @@ package router
 import (
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/s7techlab/cckit/response"
+	"github.com/kukgini/cckit2/response"
 )
 
 // Response chaincode interface

@@ -3,7 +3,7 @@ package expect
 import (
 	"github.com/hyperledger/fabric-protos-go/peer"
 	g "github.com/onsi/gomega"
-	"github.com/s7techlab/cckit/convert"
+	"github.com/kukgini/cckit2/convert"
 )
 
 func EventIs(event *peer.ChaincodeEvent, expectName string, expectPayload interface{}) {

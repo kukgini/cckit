@@ -3,10 +3,10 @@ package erc20_test
 import (
 	"testing"
 
-	"github.com/s7techlab/cckit/examples/erc20"
-	identitytestdata "github.com/s7techlab/cckit/identity/testdata"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	"github.com/kukgini/cckit2/examples/erc20"
+	identitytestdata "github.com/kukgini/cckit2/identity/testdata"
+	testcc "github.com/kukgini/cckit2/testing"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

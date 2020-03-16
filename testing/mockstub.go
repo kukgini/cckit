@@ -15,7 +15,7 @@ import (
 	"github.com/hyperledger/fabric-protos-go/peer"
 	gologging "github.com/op/go-logging"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/convert"
+	"github.com/kukgini/cckit2/convert"
 )
 
 const EventChannelBufferSize = 100
@@ -50,7 +50,7 @@ type CreatorTransformer func(...interface{}) (mspID string, certPEM []byte, err 
 // NewMockStub creates chaincode imitation
 func NewMockStub(name string, cc shim.Chaincode) *MockStub {
 	return &MockStub{
-		MockStub: *shim.NewMockStub(name, cc),
+		MockStub: *shimtest.NewMockStub(name, cc),
 		cc:       cc,
 		// by default tx creator data and transient map are cleared after each cc method query/invoke
 		ClearCreatorAfterInvoke: true,

@@ -2,10 +2,10 @@ package encryption
 
 import (
 	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric-chaincode-go/shim/ext/entities"
+	//"github.com/hyperledger/fabric-chaincode-go/shim/ext/entities"
+	"github.com/kukgini/cckit2/convert"
+	"github.com/kukgini/cckit2/router"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/convert"
-	"github.com/s7techlab/cckit/router"
 )
 
 const TransientMapKey = `ENCODE_KEY`
@@ -63,28 +63,30 @@ func DecryptArgs(key []byte, args [][]byte) ([][]byte, error) {
 // Encrypt converts value to []byte  and encrypts its with key
 func Encrypt(key []byte, value interface{}) ([]byte, error) {
 	// TODO: customize  IV
-	encrypter, err := entities.NewAES256EncrypterEntity("ID", factory.GetDefault(), key, make([]byte, 16))
-	if err != nil {
-		return nil, err
-	}
+	// encrypter, err := entities.NewAES256EncrypterEntity("ID", factory.GetDefault(), key, make([]byte, 16))
+	// if err != nil {
+	// 	return nil, err
+	// }
 
-	bb, err := convert.ToBytes(value)
-	if err != nil {
-		return nil, errors.Wrap(err, `convert values to bytes`)
-	}
+	// bb, err := convert.ToBytes(value)
+	// if err != nil {
+	// 	return nil, errors.Wrap(err, `convert values to bytes`)
+	// }
 
-	return encrypter.Encrypt(bb)
+	//return encrypter.Encrypt(bb)
+	return nil
 }
 
 // Decrypt decrypts value with key
 func Decrypt(key, value []byte) ([]byte, error) {
-	encrypter, err := entities.NewAES256EncrypterEntity("ID", factory.GetDefault(), key, nil)
-	if err != nil {
-		return nil, err
-	}
-	bb := make([]byte, len(value))
-	copy(bb, value)
-	return encrypter.Decrypt(bb)
+	// encrypter, err := entities.NewAES256EncrypterEntity("ID", factory.GetDefault(), key, nil)
+	// if err != nil {
+	// 	return nil, err
+	// }
+	// bb := make([]byte, len(value))
+	// copy(bb, value)
+	// return encrypter.Decrypt(bb)
+	return nil
 }
 
 // TransientMapWithKey creates transient map with encrypting/decrypting key

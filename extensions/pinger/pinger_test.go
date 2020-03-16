@@ -6,10 +6,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/s7techlab/cckit/identity/testdata"
-	"github.com/s7techlab/cckit/router"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	"github.com/kukgini/cckit2/identity/testdata"
+	"github.com/kukgini/cckit2/router"
+	testcc "github.com/kukgini/cckit2/testing"
+	expectcc "github.com/kukgini/cckit2/testing/expect"
 )
 
 func TestPinger(t *testing.T) {
